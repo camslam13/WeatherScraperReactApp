@@ -2,7 +2,7 @@ import { ChakraProvider, Box, Heading, Text } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import axios from 'axios';
 import LocationInput from './components/LocationInput';
-import WeatherInfo from './components/WeatherInfo'; // Assuming you have a WeatherInfo component to display the weather
+import WeatherInfo from './components/WeatherInfo'; 
 
 const App: React.FC = () => {
   const [weatherData, setWeatherData] = useState<any | null>(null);
